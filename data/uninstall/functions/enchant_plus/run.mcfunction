@@ -46,4 +46,4 @@ execute unless score @s RunCheck = @s RunCheck run tellraw @s {"text": "その�
     execute if score @s RunCheck = @s RunCheck run schedule clear uninstall:system/finish
     execute if score @s RunCheck = @s RunCheck run schedule function uninstall:system/finish 1t
 
-    execute if score @s RunCheck = @s RunCheck run datapack disable "file/EnchantPlus"
+    execute if score @s RunCheck = @s RunCheck run datapack disable "file/EnchantPlus.zip"
