@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "chest": {
+                "items": [
+                    "leather_chestplate",
+                    "chainmail_chestplate",
+                    "iron_chestplate",
+                    "golden_chestplate",
+                    "diamond_chestplate",
+                    "netherite_chestplate"
+                ],
+                "nbt": "{CustomEnchantments:[{id:\"enchant_plus:reproduction\"}]}"
+            }
+        }
+    }
+}

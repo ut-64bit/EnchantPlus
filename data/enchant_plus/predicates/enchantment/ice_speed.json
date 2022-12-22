@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "feet": {
+                "items": [
+                    "leather_boots",
+                    "chainmail_boots",
+                    "iron_boots",
+                    "golden_boots",
+                    "diamond_boots",
+                    "netherite_boots"
+                ],
+                "nbt": "{CustomEnchantments:[{id:\"enchant_plus:ice_speed\"}]}"
+            }
+        }
+    }
+}

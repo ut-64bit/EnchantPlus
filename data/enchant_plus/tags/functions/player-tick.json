@@ -1,0 +1,7 @@
+{
+    "values": [
+        "enchant_plus:tick/player/pre/",
+        "enchant_plus:tick/player/main/",
+        "enchant_plus:tick/player/post/"
+    ]
+}

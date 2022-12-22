@@ -1,0 +1,14 @@
+{
+    "values": [
+        "minecraft:chain_command_block",
+        "minecraft:command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:barrier",
+        "minecraft:light",
+        "minecraft:water",
+        "minecraft:water_cauldron",
+        "minecraft:lava",
+        "minecraft:lava_cauldron",
+        "minecraft:bedrock"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "wooden_pickaxe",
+                    "stone_pickaxe",
+                    "iron_pickaxe",
+                    "golden_pickaxe",
+                    "diamond_pickaxe",
+                    "netherite_pickaxe"
+                ],
+                "nbt": "{CustomEnchantments:[{id:\"enchant_plus:chain_miner\"}]}"
+            }
+        }
+    }
+}

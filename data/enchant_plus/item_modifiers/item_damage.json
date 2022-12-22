@@ -1,0 +1,34 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "_index.d:enchant_plus"
+        },
+        "ops": [
+            {
+                "source": "Data.Item.Damage",
+                "target": "Damage",
+                "op": "replace"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "min": 0,
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "$Ench.Unbreakable"
+                        },
+                        "score": "EnchantPlus.Temporary",
+                        "scale": 1
+                    }
+                },
+                "range": 0
+            }
+        ]
+    }
+]

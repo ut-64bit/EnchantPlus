@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "legs": {
+                "items": [
+                    "leather_leggings",
+                    "chainmail_leggings",
+                    "iron_leggings",
+                    "golden_leggings",
+                    "diamond_leggings",
+                    "netherite_leggings"
+                ],
+                "nbt": "{CustomEnchantments:[{id:\"enchant_plus:jump_boost\"}]}"
+            }
+        }
+    }
+}
