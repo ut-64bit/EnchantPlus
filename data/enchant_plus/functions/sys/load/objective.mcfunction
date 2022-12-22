@@ -13,6 +13,7 @@ scoreboard objectives add EnchantPlus.Temporary dummy
 # - 設定用スコアです
 # @internal
 scoreboard objectives add EnchantPlus.Setting dummy
+scoreboard objectives add Const dummy
 
 #> Pickaxe
 # Pickaxeの使用を検知します

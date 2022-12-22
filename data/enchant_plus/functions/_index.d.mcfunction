@@ -6,6 +6,7 @@
 # @internal
     #define score_holder $MinePlus.Range
     #define score_holder $Timber.Range
+    #define score_holder $XPBoost.Limit
 
 #> ItemData
 # @internal
@@ -16,6 +17,6 @@
     #define score_holder $Global
     #define tag Arrow.Explosion
 
-#>
+#> Const
 # @public
-    #define score_holder $CustomEnch.Haste.MaxLevel
+    #define score_holder $100
