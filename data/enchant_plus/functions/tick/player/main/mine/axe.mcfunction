@@ -6,7 +6,7 @@
     execute store result score $Ench.Unbreakable EnchantPlus.Temporary run data get storage _index.d:enchant_plus Data.Item.Enchantments[{id:"minecraft:unbreaking"}].lvl
 
 # Ench
-    function enchant_plus:ench/timber/
+    execute if entity @a[tag=this,predicate=enchant_plus:enchantment/timber] run function enchant_plus:ench/timber/
     execute if entity @a[tag=this,predicate=enchant_plus:enchantment/explosion/tool] run function enchant_plus:ench/explosion/tool/
 
 # 耐久値変更
