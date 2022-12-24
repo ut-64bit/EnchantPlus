@@ -1,0 +1,42 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "name": "EnchantPlus.AttackSpeed",
+                "amount": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "$lvl"
+                    },
+                    "score": "EnchantPlus.Temporary",
+                    "scale": 0.15
+                },
+                "operation": "addition",
+                "slot": "mainhand"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:wooden_sword",
+                                "minecraft:stone_sword",
+                                "minecraft:iron_sword",
+                                "minecraft:golden_sword",
+                                "minecraft:diamond_sword",
+                                "minecraft:netherite_sword"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
