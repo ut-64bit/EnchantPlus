@@ -31,3 +31,4 @@ execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:replan
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:anti_venom"}] run data modify storage _index.d:custom_ench Data.Name set value "AntiVenom"
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:explosion"}] run data modify storage _index.d:custom_ench Data.Name set value "Explosion"
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:rader"}] run data modify storage _index.d:custom_ench Data.Name set value "Rader"
+execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:attack_speed"}] run data modify storage _index.d:custom_ench Data.Name set value "AttackSpeed"
