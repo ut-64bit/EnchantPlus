@@ -7,7 +7,7 @@
 
 # Ench
     execute if entity @a[tag=this,predicate=enchant_plus:enchantment/timber] run function enchant_plus:ench/timber/
-    execute if entity @a[tag=this,predicate=enchant_plus:enchantment/explosion/tool] run function enchant_plus:ench/explosion/tool/
+    execute if entity @a[tag=this,predicate=enchant_plus:enchantment/explosion/tool] run function enchant_plus:ench/explosion/
 
 # 耐久値変更
     execute store result storage _index.d:enchant_plus Data.Item.Damage int 1.0 run scoreboard players get $Temp.Damage EnchantPlus.Temporary

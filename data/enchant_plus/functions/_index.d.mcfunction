@@ -16,6 +16,7 @@
 # @internal
     #define score_holder $Global
     #define tag Arrow.Explosion
+    #define tag AS.Explosion
 
 #> Const
 # @public

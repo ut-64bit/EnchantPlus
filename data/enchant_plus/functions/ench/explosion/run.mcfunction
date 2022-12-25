@@ -1,5 +1,5 @@
-#> enchant_plus:ench/explosion/tool/run
-# @within function enchant_plus:ench/explosion/tool/
+#> enchant_plus:ench/explosion/run
+# @within function enchant_plus:ench/explosion/
 
 #>
 # @private

@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "nbt": "{CustomEnchantments:[{id:\"enchant_plus:smash\"}]}"
+                "nbt": "{CustomEnchantments:[{id:\"enchant_plus:critical\"}]}"
             }
         }
     }

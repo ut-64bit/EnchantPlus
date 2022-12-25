@@ -3,8 +3,8 @@
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
-                "attribute": "minecraft:generic.max_health",
-                "name": "EnchantPlus.HealthPlus",
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "EnchantPlus.Agility",
                 "amount": {
                     "type": "minecraft:score",
                     "target": {
@@ -12,10 +12,10 @@
                         "name": "$lvl"
                     },
                     "score": "CE.Temporary",
-                    "scale": 4
+                    "scale": 0.2
                 },
-                "operation": "addition",
-                "slot": "chest"
+                "operation": "multiply_total",
+                "slot": "feet"
             }
         ]
     }

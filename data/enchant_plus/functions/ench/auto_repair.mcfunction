@@ -1,5 +1,5 @@
 #> enchant_plus:ench/auto_repair
-# @within function enchant_plus:ench/effect/
+# @within function enchant_plus:ench/effect/*
 
 #>
 # @private

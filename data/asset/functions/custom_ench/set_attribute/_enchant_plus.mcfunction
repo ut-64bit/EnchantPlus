@@ -5,5 +5,7 @@
 # @within asset:custom_ench/set_attribute/**
     #define score_holder $lvl
 
-execute if data storage _index.d:custom_ench Data.SetNBT.CustomEnchantments[{id:"enchant_plus:health_plus"}] run function asset:custom_ench/set_attribute/health_plus
-execute if data storage _index.d:custom_ench Data.SetNBT.CustomEnchantments[{id:"enchant_plus:attack_speed"}] run function asset:custom_ench/set_attribute/attack_speed
+execute if predicate custom_ench:chestplate run function asset:custom_ench/set_attribute/chestplate/
+execute if predicate custom_ench:sword run function asset:custom_ench/set_attribute/sword/
+execute if predicate custom_ench:shield run function asset:custom_ench/set_attribute/shield/
+execute if predicate custom_ench:boots run function asset:custom_ench/set_attribute/boots/

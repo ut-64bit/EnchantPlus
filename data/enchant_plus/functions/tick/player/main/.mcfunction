@@ -19,4 +19,7 @@ execute if score @s Use.Axe matches 1.. as @e[type=item,predicate=enchant_plus:a
 
 execute if score @s Use.Hoe matches 1.. as @e[type=item,predicate=enchant_plus:age0,sort=nearest,limit=1] at @s run function enchant_plus:tick/player/main/mine/hoe
 
+execute if score @s Use.Bow matches 1.. anchored eyes positioned ^ ^ ^ as @e[type=#arrows,sort=nearest,limit=1] at @s run function enchant_plus:tick/player/main/use/bow
+
+
 function enchant_plus:ench/core

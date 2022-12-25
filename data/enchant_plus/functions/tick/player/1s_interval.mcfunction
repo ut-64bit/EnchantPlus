@@ -1,0 +1,8 @@
+#> enchant_plus:tick/player/1s_interval
+# @within function
+#   enchant_plus:sys/load/
+#   enchant_plus:tick/player/1s_interval
+
+execute as @a at @s run function enchant_plus:ench/effect/short_interval
+
+schedule function enchant_plus:tick/player/1s_interval 1s append

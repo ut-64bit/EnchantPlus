@@ -3,6 +3,6 @@
 #   enchant_plus:sys/load/
 #   enchant_plus:tick/player/5s_interval
 
-execute as @a at @s run function enchant_plus:ench/effect/
+execute as @a at @s run function enchant_plus:ench/effect/long_interval
 
 schedule function enchant_plus:tick/player/5s_interval 5s append

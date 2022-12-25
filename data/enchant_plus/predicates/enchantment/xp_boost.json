@@ -4,13 +4,8 @@
     "predicate": {
         "equipment": {
             "mainhand": {
+                "tag": "custom_ench:sword",
                 "items": [
-                    "wooden_sword",
-                    "stone_sword",
-                    "iron_sword",
-                    "golden_sword",
-                    "diamond_sword",
-                    "netherite_sword",
                     "trident"
                 ],
                 "nbt": "{CustomEnchantments:[{id:\"enchant_plus:xp_boost\"}]}"
