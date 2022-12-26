@@ -5,7 +5,7 @@
 # @private
     #define tag Arrow.Init
 
-summon arrow ~ ~ ~ {Tags:["Arrow.Init","Arrow.Explosion"],Passengers:[{id:"minecraft:armor_stand",Tags:["AS.Explosion"],Invulnerable:1b,Small:1b,Invisible:1b}]}
+summon arrow ~ ~ ~ {Tags:["Arrow.Init","Arrow.Explosion"],Passengers:[{id:"minecraft:item",Tags:["Arrow.Explosion"],PickupDelay:32767,Item:{id:"minecraft:tnt",Count:1b}}]}
 data modify entity @e[tag=Arrow.Init,limit=1] {} merge from entity @s {}
 tag @e[tag=Arrow.Init] remove Arrow.Init
 kill @s

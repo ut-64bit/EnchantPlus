@@ -9,5 +9,5 @@
 
 summon creeper ~ ~200 ~ {Tags:["Temp.Creeper"],Fuse:0s,ExplosionRadius:2b,ignited:1b}
 tp @e[tag=Temp.Creeper] ~ ~ ~
-kill @e[tag=AS.Explosion,distance=..1,sort=nearest,limit=1]
+kill @e[type=item,tag=Arrow.Explosion,distance=..1,sort=nearest,limit=1]
 kill @s
