@@ -4,6 +4,9 @@
     "predicate": {
         "equipment": {
             "mainhand": {
+                "items": [
+                    "bow"
+                ],
                 "nbt": "{CustomEnchantments:[{id:\"enchant_plus:fire_shot\"}]}"
             }
         }

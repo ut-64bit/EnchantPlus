@@ -40,6 +40,7 @@ scoreboard players set $Ench CE.Temporary 0
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:rader"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:night_vision"}] run function asset:custom_ench/merge/rader
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:attack_speed"}] run function asset:custom_ench/merge/attack_speed
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:agility"}] run function asset:custom_ench/merge/agility
+    execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:charge_shot"}] run function asset:custom_ench/merge/charge_shot
 
 execute if data storage _index.d:custom_ench Data.BaseItem.StoredCustomEnchantments run data modify storage _index.d:custom_ench Data.BaseItem.StoredCustomEnchantments set from storage _index.d:custom_ench Data.Base.Enchantments
 execute if data storage _index.d:custom_ench Data.BaseItem.CustomEnchantments run data modify storage _index.d:custom_ench Data.BaseItem.CustomEnchantments set from storage _index.d:custom_ench Data.Base.Enchantments

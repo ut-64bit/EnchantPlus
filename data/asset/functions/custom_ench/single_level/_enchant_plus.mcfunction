@@ -27,3 +27,4 @@ execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:replan
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:ice_speed"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:feather"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:blast"}] run scoreboard players set $Ench.lvl CE.Temporary 0
+execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:charge_shot"}] run scoreboard players set $Ench.lvl CE.Temporary 0

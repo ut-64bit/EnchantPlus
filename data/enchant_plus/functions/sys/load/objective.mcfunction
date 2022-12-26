@@ -15,6 +15,12 @@ scoreboard objectives add EnchantPlus.Temporary dummy
 scoreboard objectives add EnchantPlus.Setting dummy
 scoreboard objectives add Const dummy
 
+#> PlayerID
+# ____
+# - PlayerID
+# @internal
+scoreboard objectives add PlayerID dummy
+
 #> Pickaxe
 # Pickaxeの使用を検知します
 # @public
@@ -62,6 +68,11 @@ scoreboard objectives add Const dummy
 #> Bow
 # @public
     scoreboard objectives add Use.Bow used:bow
+    scoreboard objectives add Use.Bow.Charge dummy
+
+#> Trident
+# @public
+    scoreboard objectives add Use.Trident used:trident
 
 #> XP
 # @internal
