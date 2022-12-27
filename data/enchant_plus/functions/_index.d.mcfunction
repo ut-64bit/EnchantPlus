@@ -18,6 +18,7 @@
     #define tag Arrow.Explosion
     #define tag Arrow.FireShot
     #define tag Arrow.SparkShot
+    #define tag Arrow.ChargeShot
 
 #> Const
 # @public

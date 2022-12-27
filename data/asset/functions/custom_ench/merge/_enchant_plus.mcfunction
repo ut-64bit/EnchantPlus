@@ -14,7 +14,7 @@ scoreboard players set $Ench CE.Temporary 0
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:xp_boost"}] run function asset:custom_ench/merge/xp_boost
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:auto_repair"}] run function asset:custom_ench/merge/auto_repair
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:multi_shot"}] run function asset:custom_ench/merge/multi_shot
-    execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:power_shot"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:blast"}] run function asset:custom_ench/merge/power_shot
+    execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:power_shot"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:blast"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:spark_shot"}] run function asset:custom_ench/merge/power_shot
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:healthy"}] run function asset:custom_ench/merge/healthy
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:critical"}] run function asset:custom_ench/merge/critical
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:shield_bash"}] run function asset:custom_ench/merge/shield_bash
@@ -36,11 +36,12 @@ scoreboard players set $Ench CE.Temporary 0
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:replant"}] run function asset:custom_ench/merge/replant
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:anti_venom"}] run function asset:custom_ench/merge/anti_venom
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:explosion"}] run function asset:custom_ench/merge/explosion
-    execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:blast"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:power_shot"}] run function asset:custom_ench/merge/blast
+    execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:blast"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:power_shot"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:spark_shot"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:fire_shot"}] run function asset:custom_ench/merge/blast
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:rader"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:night_vision"}] run function asset:custom_ench/merge/rader
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:attack_speed"}] run function asset:custom_ench/merge/attack_speed
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:agility"}] run function asset:custom_ench/merge/agility
     execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:charge_shot"}] run function asset:custom_ench/merge/charge_shot
+    execute if data storage _index.d:custom_ench Data.Add.Enchantments[{id:"enchant_plus:spark_shot"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:power_shot"}] unless data storage _index.d:custom_ench Data.Base.Enchantments[{id:"enchant_plus:blast"}] run function asset:custom_ench/merge/spark_shot
 
 execute if data storage _index.d:custom_ench Data.BaseItem.StoredCustomEnchantments run data modify storage _index.d:custom_ench Data.BaseItem.StoredCustomEnchantments set from storage _index.d:custom_ench Data.Base.Enchantments
 execute if data storage _index.d:custom_ench Data.BaseItem.CustomEnchantments run data modify storage _index.d:custom_ench Data.BaseItem.CustomEnchantments set from storage _index.d:custom_ench Data.Base.Enchantments

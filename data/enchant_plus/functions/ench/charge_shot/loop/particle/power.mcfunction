@@ -1,0 +1,25 @@
+#> enchant_plus:ench/charge_shot/loop/particle/power
+# @within function enchant_plus:ench/charge_shot/loop/particle/
+
+particle explosion ~ ~ ~ 0 0 0 1 1 force @a[distance=3..]
+
+particle flame ^0 ^-0.6 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.1854 ^-0.5706 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.3527 ^-0.4854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.4854 ^-0.3527 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.5706 ^-0.1854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.6 ^0 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.5706 ^0.1854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.4854 ^0.3527 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.3527 ^0.4854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0.1854 ^0.5706 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^0 ^0.6 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.1854 ^0.5706 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.3527 ^0.4854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.4854 ^0.3527 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.5706 ^0.1854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.6 ^0 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.5706 ^-0.1854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.4854 ^-0.3527 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.3527 ^-0.4854 ^ 0 0 0 0 1 force @a[distance=3..]
+particle flame ^-0.1854 ^-0.5706 ^ 0 0 0 0 1 force @a[distance=3..]

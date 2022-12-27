@@ -26,10 +26,9 @@
     # Mob
         execute if entity @s[type=!player] if score $SubtractedHealth ScoreDamageCore matches 1.. store result entity @s Health float 0.0001 run scoreboard players get $SubtractedHealth ScoreDamageCore
     # Common
-        execute at @s run function guncraft:core/projectile/hit/uuid_hit
-        execute if entity @s[type=player] if score $SubtractedHealth ScoreDamageCore matches ..0 run effect give @s instant_damage 16 8 true
-        execute if entity @s[type=ender_dragon] if score $SubtractedHealth ScoreDamageCore matches ..0 run data modify entity @s DragonPhase set value 9
-        execute if entity @s[type=!player] if entity @s[type=!ender_dragon] if score $SubtractedHealth ScoreDamageCore matches ..0 run kill @s
+        execute at @s run function score_damage:core/uuid_hit
+        execute if score $SubtractedHealth ScoreDamageCore matches ..0 run function score_damage:core/kill/
+
 # 演出
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if entity @s[type=#score_damage:undead] run summon area_effect_cloud ~ ~ ~ {Duration:14,Age:4,Effects:[{Id:11b,Amplifier:127b,Duration:1,ShowParticles:0b},{Id:6b,Amplifier:0b,Duration:1,ShowParticles:0b}]}
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if entity @s[type=!#score_damage:undead] run summon area_effect_cloud ~ ~ ~ {Duration:14,Age:4,Effects:[{Id:11b,Amplifier:127b,Duration:1,ShowParticles:0b},{Id:7b,Amplifier:0b,Duration:1,ShowParticles:0b}]}

@@ -7,6 +7,7 @@
 # - tickの最後に削除されます
 # @internal
 scoreboard objectives add EnchantPlus.Temporary dummy
+scoreboard objectives add EnchantPlus.Loop dummy
 
 #> EnchantPlus.Setting
 # ____

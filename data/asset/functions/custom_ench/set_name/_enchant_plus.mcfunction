@@ -36,3 +36,4 @@ execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:soul_b
     execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:feather"}] run data modify storage _index.d:custom_ench Data.Name set value "Feather"
     execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:agility"}] run data modify storage _index.d:custom_ench Data.Name set value "Agility"
     execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:charge_shot"}] run data modify storage _index.d:custom_ench Data.Name set value "ChargeShot"
+    execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:spark_shot"}] run data modify storage _index.d:custom_ench Data.Name set value "SparkShot"
