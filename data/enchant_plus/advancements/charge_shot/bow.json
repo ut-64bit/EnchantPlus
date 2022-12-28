@@ -6,13 +6,12 @@
                 "item": {
                     "items": [
                         "minecraft:bow"
-                    ],
-                    "nbt": "{CustomEnchantments:[{id:\"enchant_plus:charge_shot\"}]}"
+                    ]
                 }
             }
         }
     },
     "rewards": {
-        "function": "enchant_plus:ench/charge_shot/charge/bow"
+        "function": "enchant_plus:handler/using_bow"
     }
 }

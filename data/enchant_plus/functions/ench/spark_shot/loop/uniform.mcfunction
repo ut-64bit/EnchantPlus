@@ -1,21 +1,4 @@
-#CREDIT: AELDRION, check the githbub repository: https://github.com/Aeldrion/Minecraft-Random
-#> random:uniform
-#
-# Generates a random number between two given bounds using a linear congruential generator
-#
-# @public
-# @within random:exponential
-# @within random:private/poisson_loop
-# @input
-#	score $min Random
-#		The minimum value (inclusive)
-#	score $max Random
-#		The maximum value (inclusive)
-# @output
-#	score $out Random
-#		An integer in range [min, max]
-# Calculate size of range
-
+# Init
 scoreboard players operation $size Random = $max Random
 scoreboard players operation $size Random -= $min Random
 scoreboard players add $size Random 1

@@ -8,9 +8,6 @@
     data modify storage _index.d:enchant_plus Data.Player.Inventory set from entity @s Inventory
     data modify storage _index.d:enchant_plus Data.Player.SelectedItem set from entity @s SelectedItem
 
-# 設定
-    function enchant_plus:tick/player/pre/setting
-
 # スコア
     execute unless score @s PlayerID matches -2147483648..2147483647 run function enchant_plus:tick/player/pre/set_player_id
     function enchant_plus:tick/player/pre/use/check/axe

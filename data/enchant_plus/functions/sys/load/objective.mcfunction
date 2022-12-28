@@ -7,7 +7,6 @@
 # - tickの最後に削除されます
 # @internal
 scoreboard objectives add EnchantPlus.Temporary dummy
-scoreboard objectives add EnchantPlus.Loop dummy
 
 #> EnchantPlus.Setting
 # ____
@@ -74,6 +73,7 @@ scoreboard objectives add PlayerID dummy
 #> Trident
 # @public
     scoreboard objectives add Use.Trident used:trident
+    scoreboard objectives add Use.Trident.Charge dummy
 
 #> XP
 # @internal

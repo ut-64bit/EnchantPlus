@@ -1,4 +1,4 @@
-#> enchant_plus:ench/power_shot
+#> enchant_plus:ench/power_shot/
 # @within function
 #   enchant_plus:tick/player/main/use/bow
 #   enchant_plus:tick/player/main/use/trident
