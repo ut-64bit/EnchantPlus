@@ -1,7 +1,6 @@
 #> enchant_plus:ench/mine_plus/
 # @within function enchant_plus:tick/player/main/mine/**
 
-say mp
 execute positioned ~00 ~01 ~00 unless block ~ ~ ~ #enchant_plus:cannot_break run function enchant_plus:core/break
 execute positioned ~00 ~-1 ~00 unless block ~ ~ ~ #enchant_plus:cannot_break run function enchant_plus:core/break
 

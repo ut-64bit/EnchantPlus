@@ -13,8 +13,7 @@ tp @e[tag=SparkInit] ^ ^ ^ ~ ~
 tag @s add SparkInit
 
 execute if entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..8] as @e[tag=SparkInit] at @s anchored eyes positioned ^ ^ ^-10 facing entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..8,sort=nearest,limit=1] eyes positioned as @s run tp @s ~ ~ ~ ~ ~
-execute if entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..16] as @e[tag=SparkInit] at @s anchored eyes positioned ^ ^ ^-50 facing entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..16,sort=nearest,limit=1] eyes positioned as @s run tp @s ~ ~ ~ ~ ~
-execute if entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..32] as @e[tag=SparkInit] at @s anchored eyes positioned ^ ^ ^-100 facing entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..32,sort=nearest,limit=1] eyes positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..16] as @e[tag=SparkInit] at @s anchored eyes positioned ^ ^ ^-25 facing entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..16,sort=nearest,limit=1] eyes positioned as @s run tp @s ~ ~ ~ ~ ~
 
 execute as @e[tag=SparkInit] at @s run function enchant_plus:ench/spark_shot/loop/spread
 

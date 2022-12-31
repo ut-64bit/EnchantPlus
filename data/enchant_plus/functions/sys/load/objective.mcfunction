@@ -6,14 +6,14 @@
 # - 一時的なスコアです
 # - tickの最後に削除されます
 # @internal
-scoreboard objectives add EnchantPlus.Temporary dummy
+    scoreboard objectives add EnchantPlus.Temporary dummy
 
 #> EnchantPlus.Setting
 # ____
 # - 設定用スコアです
 # @internal
-scoreboard objectives add EnchantPlus.Setting dummy
-scoreboard objectives add Const dummy
+    scoreboard objectives add EnchantPlus.Setting dummy
+    scoreboard objectives add Const dummy
 
 #> PlayerID
 # ____
@@ -79,3 +79,7 @@ scoreboard objectives add PlayerID dummy
 # @internal
     scoreboard objectives add XP xp
     scoreboard objectives add PreXP dummy
+
+#> Food
+# @internal
+    scoreboard objectives add Food food

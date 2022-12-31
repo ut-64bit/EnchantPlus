@@ -17,7 +17,7 @@ summon area_effect_cloud ~ ~ ~ {Tags:["Temp.Effect"],Radius:0f,Duration:6,Age:4,
 
 execute if predicate enchant_plus:enchantment/auto_repair run function enchant_plus:ench/auto_repair
 execute if predicate enchant_plus:enchantment/reproduction run function enchant_plus:ench/effect/long/reproduction
-execute if predicate enchant_plus:enchantment/satiety run function enchant_plus:ench/effect/long/satiety
+execute if predicate enchant_plus:enchantment/satiety if score @s Food matches ..15 run function enchant_plus:ench/effect/long/satiety
 
 data modify entity @e[tag=Temp.Effect,limit=1] Effects set from storage _index.d:enchant_plus Data.Player.Effect
 tag @e[tag=Temp.Effect] remove Temp.Effect

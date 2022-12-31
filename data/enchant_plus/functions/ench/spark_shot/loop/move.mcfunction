@@ -8,7 +8,6 @@
     #define team NoHealth
 
 scoreboard players remove $loop EnchantPlus.Temporary 1
-execute if entity @e[team=!NoHealth,tag=!this,distance=..10] run scoreboard players remove $loop EnchantPlus.Temporary 1
 
 tp @s ^ ^ ^0.25
 

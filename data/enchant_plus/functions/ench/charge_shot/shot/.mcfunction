@@ -15,7 +15,7 @@
     #alias entity marker @e[tag=Marker.Init]
 
 # Data
-    execute store result score $damage EnchantPlus.Temporary run data get entity @s damage
+    execute store result score $damage EnchantPlus.Temporary run data get entity @s damage 100
 
 # Marker
     summon marker ~ ~ ~ {Tags:["Marker.Init","Arrow.ChargeShot"]}

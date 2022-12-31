@@ -37,3 +37,4 @@ execute if data storage _index.d:custom_ench Data.SetNBT.StoredCustomEnchantment
     execute if data storage _index.d:custom_ench Data.SetNBT.StoredCustomEnchantments[{id:"enchant_plus:agility"}] run data modify storage _index.d:custom_ench Data.MergeItem set value "Boots"
     execute if data storage _index.d:custom_ench Data.SetNBT.StoredCustomEnchantments[{id:"enchant_plus:charge_shot"}] run data modify storage _index.d:custom_ench Data.MergeItem set value "Bow"
     execute if data storage _index.d:custom_ench Data.SetNBT.StoredCustomEnchantments[{id:"enchant_plus:spark_shot"}] run data modify storage _index.d:custom_ench Data.MergeItem set value "Bow"
+    execute if data storage _index.d:custom_ench Data.SetNBT.StoredCustomEnchantments[{id:"enchant_plus:lightning_strike"}] run data modify storage _index.d:custom_ench Data.MergeItem set value "Bow"

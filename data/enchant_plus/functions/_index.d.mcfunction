@@ -16,6 +16,7 @@
 # @internal
     #define score_holder $Global
     #define tag Arrow.Explosion
+    #define tag Arrow.LightningStrike
     #define tag Arrow.FireShot
     #define tag Arrow.SparkShot
     #define tag Arrow.ChargeShot
