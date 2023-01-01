@@ -6,6 +6,8 @@
     #define tag Arrow.Init
     #define score_holder $Rotation.x
 
+scoreboard players set $CanShot EnchantPlus.Temporary 0
+
 execute store result score $Rotation.x EnchantPlus.Temporary run data get entity @p Rotation[1]
 
 execute if score $Rotation.x EnchantPlus.Temporary matches -22.. run summon arrow ~ ~ ~ {Tags:["Arrow.Init","Arrow.LightningStrike"],Passengers:[{id:"minecraft:armor_stand",Tags:["Arrow.LightningStrike"],Small:1b,Invisible:1b}]}

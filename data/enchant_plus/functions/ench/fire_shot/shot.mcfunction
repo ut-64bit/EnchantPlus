@@ -1,6 +1,8 @@
 #> enchant_plus:ench/fire_shot/shot
 # @within function enchant_plus:tick/player/main/use/bow
 
+scoreboard players set $CanShot EnchantPlus.Temporary 0
+
 tag @s add Arrow.FireShot
 
 execute as @a[tag=this] at @s anchored eyes positioned ^ ^ ^ run particle flame ^0 ^0.5 ^1 0 0 0 0 1 normal

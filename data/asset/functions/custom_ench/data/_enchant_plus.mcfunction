@@ -88,8 +88,8 @@
 # Reproduction
     execute unless data storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant[{id:"enchant_plus:reproduction"}] run data modify storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant append value {id:"enchant_plus:reproduction",Level:3}
     execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Low[{id:"enchant_plus:reproduction"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Low append value {id:"enchant_plus:reproduction",Enable:false,Level:1}
-    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium[{id:"enchant_plus:reproduction"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium append value {id:"enchant_plus:reproduction",Enable:false,Level:1}
-    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High[{id:"enchant_plus:reproduction"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High append value {id:"enchant_plus:reproduction",Enable:false,Level:2}
+    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium[{id:"enchant_plus:reproduction"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium append value {id:"enchant_plus:reproduction",Enable:true,Level:1}
+    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High[{id:"enchant_plus:reproduction"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High append value {id:"enchant_plus:reproduction",Enable:true,Level:2}
 
 # PoisonBlade
     execute unless data storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant[{id:"enchant_plus:poison_blade"}] run data modify storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant append value {id:"enchant_plus:poison_blade",Level:1}
@@ -114,6 +114,12 @@
     execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Low[{id:"enchant_plus:mine_plus"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Low append value {id:"enchant_plus:mine_plus",Enable:false,Level:1}
     execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium[{id:"enchant_plus:mine_plus"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium append value {id:"enchant_plus:mine_plus",Level:1}
     execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High[{id:"enchant_plus:mine_plus"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High append value {id:"enchant_plus:mine_plus",Level:1}
+
+# Timber
+    execute unless data storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant[{id:"enchant_plus:timber"}] run data modify storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant append value {id:"enchant_plus:timber",Level:1}
+    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Low[{id:"enchant_plus:timber"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Low append value {id:"enchant_plus:timber",Enable:false,Level:1}
+    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium[{id:"enchant_plus:timber"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.Medium append value {id:"enchant_plus:timber",Level:1}
+    execute unless data storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High[{id:"enchant_plus:timber"}] run data modify storage asset:custom_ench Data.Loot.Custom[{Namespace:"enchant_plus"}].Enchant.High append value {id:"enchant_plus:timber",Level:1}
 
 # ChainMiner
     execute unless data storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant[{id:"enchant_plus:chain_miner"}] run data modify storage asset:custom_ench Data.Asset.Custom[{Namespace:"enchant_plus"}].Enchant append value {id:"enchant_plus:chain_miner",Level:1}

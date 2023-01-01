@@ -17,5 +17,6 @@ execute unless block ~ ~ ~ #enchant_plus:no_collision run scoreboard players set
 
 particle wax_off ~ ~ ~ 0.01 0.01 0.01 1 2 force @a
 
-execute unless score $loop EnchantPlus.Temporary matches 1.. at @s run function enchant_plus:ench/spark_shot/loop/separate
+execute unless score $loop EnchantPlus.Temporary matches 1.. run scoreboard players remove $separate_limit EnchantPlus.Temporary 1
+execute unless score $loop EnchantPlus.Temporary matches 1.. if entity @e[team=!NoHealth,tag=!this,tag=!Temp.Hit,distance=..64] run function enchant_plus:ench/spark_shot/loop/separate
 execute if score $loop EnchantPlus.Temporary matches 1.. at @s run function enchant_plus:ench/spark_shot/loop/move

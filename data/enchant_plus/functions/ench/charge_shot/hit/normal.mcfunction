@@ -1,4 +1,5 @@
 #> enchant_plus:ench/charge_shot/hit/normal
 # @within function enchant_plus:ench/charge_shot/hit/
 
-    execute store result storage score_damage: Argument.Damage float 1.0 run data get storage score_damage: Argument.Damage
+    scoreboard players operation $damage.copy EnchantPlus.Temporary *= $125 Const
+    scoreboard players operation $damage.copy EnchantPlus.Temporary /= $100 Const

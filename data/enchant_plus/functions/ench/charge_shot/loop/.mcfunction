@@ -9,7 +9,6 @@
     #define score_holder $particle
 
 scoreboard players remove $loop EnchantPlus.Temporary 1
-execute if entity @s[tag=Arrow.FC.PowerShot] run scoreboard players remove $loop EnchantPlus.Temporary 1
 
 tp @s ^ ^ ^0.25 ~ ~
 

@@ -20,6 +20,7 @@ execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:poison
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:multi_jump"}] run data modify storage _index.d:custom_ench Data.Name set value "MultiJump"
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:cutter"}] run data modify storage _index.d:custom_ench Data.Name set value "Cutter"
     execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:mine_plus"}] run data modify storage _index.d:custom_ench Data.Name set value "Mine+"
+    execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:timber"}] run data modify storage _index.d:custom_ench Data.Name set value "Timber"
     execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:chain_miner"}] run data modify storage _index.d:custom_ench Data.Name set value "ChainMiner"
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:homing"}] run data modify storage _index.d:custom_ench Data.Name set value "Homing"
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:auto_smelt"}] run data modify storage _index.d:custom_ench Data.Name set value "AutoSmelt"

@@ -14,6 +14,8 @@
     #alias entity this @a[tag=this]
     #alias entity marker @e[tag=Marker.Init]
 
+scoreboard players set $CanShot EnchantPlus.Temporary 0
+
 # Data
     execute store result score $damage EnchantPlus.Temporary run data get entity @s damage 100
 
