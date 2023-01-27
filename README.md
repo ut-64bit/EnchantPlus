@@ -1,3 +1,3 @@
 # EnchantPlus
-## EnchantPlusとは
+## About
 マインクラフトにエンチャントをたくさん追加するデータパックです。
