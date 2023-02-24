@@ -2,6 +2,5 @@
 # スコアボードを作るよ。
 # @internal
 
-#>
-# @public
 scoreboard objective add Global dummy
+scoreboard objective add PlayerID dummy
