@@ -1,5 +1,8 @@
 {
     "values": [
-        "enchant_plus:sys/load/"
+        "enchant_plus:sys/load/",
+        "score_to_health:load",
+        "forward_spreader:core/load",
+        "score_damage:core/init"
     ]
 }

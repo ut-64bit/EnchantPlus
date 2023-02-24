@@ -4,6 +4,10 @@
     "predicate": {
         "equipment": {
             "mainhand": {
+                "items": [
+                    "bow",
+                    "trident"
+                ],
                 "nbt": "{CustomEnchantments:[{id:\"enchant_plus:power_shot\"}]}"
             }
         }

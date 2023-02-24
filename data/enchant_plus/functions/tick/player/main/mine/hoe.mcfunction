@@ -7,7 +7,7 @@
 
 # Ench
     execute if entity @a[tag=this,predicate=enchant_plus:enchantment/harvest] run function enchant_plus:ench/harvest
-    execute as @e[type=item,predicate=enchant_plus:age0,distance=..10] if predicate enchant_plus:item/seed at @s run function enchant_plus:ench/replant/
+    execute if entity @a[tag=this,predicate=enchant_plus:enchantment/replant] as @e[type=item,predicate=enchant_plus:age0,distance=..10] if predicate enchant_plus:item/seed at @s run function enchant_plus:ench/replant/
     execute if entity @a[tag=this,predicate=enchant_plus:enchantment/explosion/tool] run function enchant_plus:ench/explosion/
 
 # 耐久値変更

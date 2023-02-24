@@ -6,14 +6,20 @@
 # - 一時的なスコアです
 # - tickの最後に削除されます
 # @internal
-scoreboard objectives add EnchantPlus.Temporary dummy
+    scoreboard objectives add EnchantPlus.Temporary dummy
 
 #> EnchantPlus.Setting
 # ____
 # - 設定用スコアです
 # @internal
-scoreboard objectives add EnchantPlus.Setting dummy
-scoreboard objectives add Const dummy
+    scoreboard objectives add EnchantPlus.Setting dummy
+    scoreboard objectives add Const dummy
+
+#> PlayerID
+# ____
+# - PlayerID
+# @internal
+scoreboard objectives add PlayerID dummy
 
 #> Pickaxe
 # Pickaxeの使用を検知します
@@ -62,8 +68,18 @@ scoreboard objectives add Const dummy
 #> Bow
 # @public
     scoreboard objectives add Use.Bow used:bow
+    scoreboard objectives add Use.Bow.Charge dummy
+
+#> Trident
+# @public
+    scoreboard objectives add Use.Trident used:trident
+    scoreboard objectives add Use.Trident.Charge dummy
 
 #> XP
 # @internal
     scoreboard objectives add XP xp
     scoreboard objectives add PreXP dummy
+
+#> Food
+# @internal
+    scoreboard objectives add Food food

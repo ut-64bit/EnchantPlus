@@ -3,6 +3,7 @@
 
 # objective
     function enchant_plus:sys/load/objective
+    function enchant_plus:sys/load/const
 
 schedule clear enchant_plus:tick/player/1s_interval
 schedule clear enchant_plus:tick/player/5s_interval

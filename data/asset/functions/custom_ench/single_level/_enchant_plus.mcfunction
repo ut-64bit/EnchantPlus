@@ -16,6 +16,7 @@ execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:night_
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:poison_blade"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:cutter"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:mine_plus"}] run scoreboard players set $Ench.lvl CE.Temporary 0
+execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:timber"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:chain_miner"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:homing"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:auto_smelt"}] run scoreboard players set $Ench.lvl CE.Temporary 0
@@ -27,3 +28,6 @@ execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:replan
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:ice_speed"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:feather"}] run scoreboard players set $Ench.lvl CE.Temporary 0
 execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:blast"}] run scoreboard players set $Ench.lvl CE.Temporary 0
+execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:charge_shot"}] run scoreboard players set $Ench.lvl CE.Temporary 0
+execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:spark_shot"}] run scoreboard players set $Ench.lvl CE.Temporary 0
+execute if data storage _index.d:custom_ench Data.First[{id:"enchant_plus:lightning_strike"}] run scoreboard players set $Ench.lvl CE.Temporary 0
