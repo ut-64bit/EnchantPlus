@@ -18,7 +18,7 @@
     function enchant_plus:ench/chain_miner/loop/
 
 # 破壊
-    execute as @e[type=area_effect_cloud,tag=CustomEnch.ChainMiner] at @s run function enchant_plus:core/break
+    execute as @e[type=area_effect_cloud,tag=CustomEnch.ChainMiner] at @s run function enchant_plus:common/break
 
 # AEC削除
     kill @e[type=area_effect_cloud,tag=CustomEnch.ChainMiner]
