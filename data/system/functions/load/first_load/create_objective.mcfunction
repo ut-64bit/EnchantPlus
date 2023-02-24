@@ -4,4 +4,4 @@
 
 #>
 # @public
-scoreboard objective add DataVersion dummy
+scoreboard objective add Global dummy
